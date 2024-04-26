@@ -1,0 +1,30 @@
+@use "../abstracts/variables";
+
+.navbar {
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    padding: 30px 40px;
+  }
+
+  &__image {
+    width: auto;
+    height: 40px;
+  }
+  &__menu-item {
+    list-style: none;
+    font-family: $mono-font;
+    font-size: $font18;
+    color: $spanish-gray;
+  }
+  &__menu {
+    display: flex;
+
+    justify-content: flex-start;
+    gap: 30px;
+  }
+
+  &__button-wrapper {
+    margin-left: auto;
+  }
+}

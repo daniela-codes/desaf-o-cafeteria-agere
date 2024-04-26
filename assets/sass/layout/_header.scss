@@ -1,0 +1,98 @@
+@use "../abstracts/variables";
+
+.section-top {
+  display: flex;
+
+  &__container {
+    position: relative;
+  }
+
+  &__image img {
+    width: auto;
+    height: auto;
+  }
+
+  &__text-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+
+    & h4 {
+      font-family: $mono-font;
+      font-size: $font70;
+      font-weight: $font-thin;
+    }
+
+    & p {
+      font-family: $roboto-font;
+      font-size: $font18;
+      color: $spanish-gray;
+    }
+  }
+
+  &__cuadrado-container {
+    display: flex;
+    position: relative;
+    margin-top: 170px;
+  }
+
+  &__cuadrado {
+    width: 100px;
+    height: 100px;
+
+    background-color: $buff;
+
+    &--amarillo {
+      background-color: $buff;
+    }
+
+    &--naranjo {
+      position: absolute;
+      bottom: 15%;
+      left: -3%;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: $flame;
+      color: white;
+      font-size: $font40;
+      font-weight: $font-bold;
+    }
+  }
+  &__bottom-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+}
+
+.feature-wrapper {
+  position: absolute;
+  bottom: 19%;
+  left: 32%;
+  display: flex;
+  max-width: 400px;
+  background-color: $white;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid $isabelline;
+  gap: 15px;
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+
+    & h4 {
+      font-family: $mono-font;
+      font-size: $font40;
+      margin: 0 0 10px 0;
+    }
+    & p {
+      font-family: $roboto-font;
+      font-size: $font16;
+      color: $spanish-gray;
+    }
+  }
+}

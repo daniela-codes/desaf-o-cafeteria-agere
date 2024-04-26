@@ -1,0 +1,41 @@
+@use "../abstracts/variables";
+
+.button {
+  font-family: $mono-font;
+  font-size: $font16;
+  padding: 6px;
+  border: none;
+
+  & a {
+    text-decoration: none;
+    color: $spanish-gray;
+  }
+}
+
+.navbar__button {
+  &--primary {
+    background-color: $white;
+    border: 1px solid $spanish-gray;
+
+    &:hover {
+      border: 1px solid $black;
+
+      & a {
+        color: $black;
+      }
+    }
+  }
+  &--secondary {
+    background-color: $shiny-shamrock;
+    margin-left: 15px;
+    & a {
+      color: $white;
+    }
+    &:hover {
+      background-color: $turquoise-green;
+      & a {
+        color: $black;
+      }
+    }
+  }
+}

@@ -1,0 +1,219 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Mono&family=Roboto:wght@300&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.bottom-section {
+  display: flex;
+  justify-content: center;
+  padding: 0px 0 40px 0px;
+}
+.bottom-section__text {
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+}
+.bottom-section__text p {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #989797;
+}
+.bottom-section__text h3 {
+  font-family: "PT Mono", sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+}
+.bottom-section__map {
+  width: 100%;
+  height: 250px;
+  position: relative;
+  background-color: #5fa5ea;
+}
+.bottom-section__mapa-img img {
+  position: absolute;
+  bottom: -10%;
+  left: -10%;
+  width: 85%;
+  height: auto;
+}
+.bottom-section__img-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+}
+.bottom-section__cafe-img img {
+  position: absolute;
+  top: 0;
+  right: 320px;
+  width: 100px;
+  height: 200px;
+  object-fit: cover;
+}
+.bottom-section__granos-img {
+  width: 100%;
+  height: 100%;
+}
+.bottom-section__granos-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.section-top {
+  display: flex;
+}
+.section-top__container {
+  position: relative;
+}
+.section-top__image img {
+  width: auto;
+  height: auto;
+}
+.section-top__text-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+.section-top__text-wrapper h4 {
+  font-family: "PT Mono", sans-serif;
+  font-size: 70px;
+  font-weight: 200;
+}
+.section-top__text-wrapper p {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  color: #989797;
+}
+.section-top__cuadrado-container {
+  display: flex;
+  position: relative;
+  margin-top: 170px;
+}
+.section-top__cuadrado {
+  width: 100px;
+  height: 100px;
+  background-color: #f1dd7b;
+}
+.section-top__cuadrado--amarillo {
+  background-color: #f1dd7b;
+}
+.section-top__cuadrado--naranjo {
+  position: absolute;
+  bottom: 15%;
+  left: -3%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e4572e;
+  color: white;
+  font-size: 40px;
+  font-weight: 700;
+}
+.section-top__bottom-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.feature-wrapper {
+  position: absolute;
+  bottom: 19%;
+  left: 32%;
+  display: flex;
+  max-width: 400px;
+  background-color: #ffffff;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #eeeded;
+  gap: 15px;
+}
+.feature-wrapper__item {
+  display: flex;
+  flex-direction: column;
+}
+.feature-wrapper__item h4 {
+  font-family: "PT Mono", sans-serif;
+  font-size: 40px;
+  margin: 0 0 10px 0;
+}
+.feature-wrapper__item p {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #989797;
+}
+
+.navbar__wrapper {
+  display: flex;
+  align-items: center;
+  padding: 30px 40px;
+}
+.navbar__image {
+  width: auto;
+  height: 40px;
+}
+.navbar__menu-item {
+  list-style: none;
+  font-family: "PT Mono", sans-serif;
+  font-size: 18px;
+  color: #989797;
+}
+.navbar__menu {
+  display: flex;
+  justify-content: flex-start;
+  gap: 30px;
+}
+.navbar__button-wrapper {
+  margin-left: auto;
+}
+
+.button {
+  font-family: "PT Mono", sans-serif;
+  font-size: 16px;
+  padding: 6px;
+  border: none;
+}
+.button a {
+  text-decoration: none;
+  color: #989797;
+}
+
+.navbar__button--primary {
+  background-color: #ffffff;
+  border: 1px solid #989797;
+}
+.navbar__button--primary:hover {
+  border: 1px solid #000000;
+}
+.navbar__button--primary:hover a {
+  color: #000000;
+}
+.navbar__button--secondary {
+  background-color: #4ca866;
+  margin-left: 15px;
+}
+.navbar__button--secondary a {
+  color: #ffffff;
+}
+.navbar__button--secondary:hover {
+  background-color: #9dcfab;
+}
+.navbar__button--secondary:hover a {
+  color: #000000;
+}
+
+/*# sourceMappingURL=style.css.map */
